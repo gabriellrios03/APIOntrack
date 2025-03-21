@@ -1,0 +1,59 @@
+# Visual Studio y Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Dependencias y paquetes
+packages/
+!packages/**/*.md
+node_modules/
+*.nupkg
+*.snupkg
+
+# Configuración de usuario y logs
+*.log
+logs/
+appsettings.*.json
+secrets.json
+
+# Archivos de publicación y depuración
+publish/
+*.pubxml
+*.publishproj
+dump.rdb
+
+# Certificados y claves
+*.pfx
+*.p12
+
+# Archivos de herramientas y cachés
+.nuget/
+NUGET_CREDENTIALPROVIDERS_PATH/
+NUGET_PACKAGES/
+project.lock.json
+project.assets.json
+
+# Archivos generados por entidades y migraciones
+Migrations/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Archivos de cobertura de código
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+.trx
+.coverage
+*.testsettings
+*.vsmdi

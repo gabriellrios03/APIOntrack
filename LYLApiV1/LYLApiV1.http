@@ -1,0 +1,6 @@
+@LYLApiV1_HostAddress = http://localhost:5114
+
+GET {{LYLApiV1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
