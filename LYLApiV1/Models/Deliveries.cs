@@ -13,6 +13,7 @@
         public DateTime Appoinment_date { get; set; }
         public int Status_id { get; set; }
         public string Documents_status { get; set; }
+        public string Remision_number { get; set; }
         public bool Is_invoiced { get; set; }
         public bool Is_paid { get; set; }
         public string Notes { get; set; }
