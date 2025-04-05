@@ -6,7 +6,7 @@
         public int Customer_id { get; set; }    
         public int Truck_id { get; set; }   
         public int Route_id { get; set; }
-        public DateTime Appoinment_date { get; set; }
+        public DateTime Appointment_date { get; set; }
         public int Status_id { get; set; }
     }
 }

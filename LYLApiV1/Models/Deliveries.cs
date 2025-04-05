@@ -7,7 +7,7 @@
         public int Customer_id { get; set; }
         public int Truck_id { get; set; }
         public int Route_id { get; set; }
-        public int Driver_Iid { get; set; }
+        public int Driver_Id { get; set; }
         public int Dryvan_id { get; set; }
         public int Free_dryvan_id { get; set;}
         public DateTime Appoinment_date { get; set; }
